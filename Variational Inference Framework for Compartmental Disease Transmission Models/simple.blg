@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: simple.aux
+The style file: abbrv.bst
+Database file #1: simple.bib
+Warning--entry type for "Jones:2007" isn't style-file defined
+--line 1 of file simple.bib
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            575 strings with 6159 characters,
+and the built_in function-call counts, 3984 in all, are:
+= -- 356
+> -- 276
+< -- 0
++ -- 111
+- -- 98
+* -- 323
+:= -- 712
+add.period$ -- 34
+call.type$ -- 11
+change.case$ -- 79
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 119
+empty$ -- 260
+format.name$ -- 98
+if$ -- 788
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 13
+newline$ -- 57
+num.names$ -- 22
+pop$ -- 83
+preamble$ -- 1
+purify$ -- 71
+quote$ -- 0
+skip$ -- 75
+stack$ -- 0
+substring$ -- 166
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 38
+warning$ -- 0
+while$ -- 29
+width$ -- 13
+write$ -- 118
+(There was 1 warning)

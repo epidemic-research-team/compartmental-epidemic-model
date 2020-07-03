@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{Baguelin:2013}
+M.~Baguelin, S.~Flasche, A.~Camacho, N.~Demiris, E.~Miller, and W.~J. Edmunds.
+\newblock Assessing optimal target populations for influenza vaccination
+  programmes: an evidence synthesis and modelling study.
+\newblock {\em PLoS Med}, 10(10):e1001527, 2013.
+
+\bibitem{Diekmann:2010}
+O.~Diekmann, J.~A.~P. Heesterbeek, and M.~G. Roberts.
+\newblock The construction of next-generation matrices for compartmental
+  epidemic models.
+\newblock {\em J R Soc Interface}, 7(47):873--885, 2010.
+
+\bibitem{Fumanelli:2012}
+L.~Fumanelli, M.~Ajelli, P.~Manfredi, A.~Vespignani, and S.~Merler.
+\newblock Inferring the structure of social contacts from demographic data in
+  the analysis of infectious diseases spread.
+\newblock {\em PLOS Computational Biology}, 8(9):1--10, 09 2012.
+
+\bibitem{Jones:2007}
+H.~J. Jones.
+\newblock Notes on $\mathcal{R}_{0}$, 2007.
+
+\bibitem{keeling2008modeling}
+M.~Keeling, P.~Rohani, and P.~U. Press.
+\newblock {\em Modeling Infectious Diseases in Humans and Animals}.
+\newblock Princeton University Press, 2008.
+
+\bibitem{Klepac2020}
+P.~Klepac, A.~J. Kucharski, A.~J. Conlan, S.~Kissler, M.~Tang, H.~Fry, and
+  J.~R. Gog.
+\newblock Contacts in context: large-scale setting-specific social mixing
+  matrices from the bbc pandemic project.
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{Gareth:2013}
+I.~A. Korostil, G.~W. Peters, J.~Cornebise, and D.~G. Regan.
+\newblock Adaptive markov chain monte carlo forward projection for statistical
+  analysis in epidemic modelling of human papillomavirus.
+\newblock {\em Statistics in Medicine}, 32(11):1917--1953, 2013.
+
+\bibitem{li2018introduction}
+M.~Li.
+\newblock {\em An Introduction to Mathematical Modeling of Infectious
+  Diseases}.
+\newblock Mathematics of Planet Earth. Springer International Publishing, 2018.
+
+\bibitem{ma2009mathematical}
+S.~Ma and Y.~Xia.
+\newblock {\em Mathematical Understanding of Infectious Disease Dynamics}.
+\newblock Lecture Notes Series, Institute for Mathematical Sciences. World
+  Scientific, 2009.
+
+\bibitem{Mossong:2008}
+J.~Mossong, N.~Hens, M.~Jit, P.~Beutels, K.~Auranen, R.~Mikolajczyk,
+  M.~Massari, S.~Salmaso, G.~S. Tomba, J.~Wallinga, J.~Heijne,
+  M.~Sadkowska-Todys, M.~Rosinska, and W.~J. Edmunds.
+\newblock Social contacts and mixing patterns relevant to the spread of
+  infectious diseases.
+\newblock {\em PLOS Medicine}, 5(3):1--1, 2008.
+
+\bibitem{Kiesha:2017}
+K.~Prem, A.~R. Cook, and M.~Jit.
+\newblock Projecting social contact matrices in 152 countries using contact
+  surveys and demographic data.
+\newblock {\em PLOS Computational Biology}, 13:1--21, 09 2017.
+
+\end{thebibliography}
