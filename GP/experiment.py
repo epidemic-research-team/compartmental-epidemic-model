@@ -153,10 +153,12 @@ def run_experiment(name, t, X, y, model_params=None, train_test_split_func=None,
     )
 
     if plot:
-        f = plt.figure(figsize=(20,4))
-        ax = f.add_subplot(1, 3, (1, 2))
+        f = plt.figure(figsize=(30,4))
+        ax = f.add_subplot(1, 4, (1, 2))
         model.plot_prediction(t, X, y, t_test, y_test, ax=ax)
-        ax = f.add_subplot(1, 3, 3)
+        ax = f.add_subplot(1, 4, 3)
         model.plot_prediction(t_test, X_test, y_test, t_test, y_test, ax=ax, test=True)
+        ax = f.add_subplot(1, 4, 4)
+        model.plot_elbo(ax=ax)
         
     return results, model

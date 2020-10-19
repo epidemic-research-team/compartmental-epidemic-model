@@ -15,6 +15,7 @@ class COVIDGPModel(object):
         variational_optimizer=None,
         model_variables_optimizer=None,
         n_iter=1000,
+        n_inducing=15
     ):
         self.name = name
         self.likelihood = likelihood or gpf.likelihoods.Gaussian()
@@ -23,18 +24,16 @@ class COVIDGPModel(object):
         self.variational_optimizer = variational_optimizer or gpf.optimizers.NaturalGradient(gamma=1.0)
         self.model_variables_optimizer = model_variables_optimizer or tf.optimizers.Adam(0.01)
         self.n_iter = n_iter
+        self.n_inducing = n_inducing
         
         self._model = None
         self._x_scaler = None
         self._y_scaler = None
         self._elbo = []
         
-    @staticmethod
-    def _inducing_variable_func(data):
-        size = int(data.shape[0] * 0.1)
-        
+    def _inducing_variable_func(self, data):
         Z = data[
-            np.random.randint(data.shape[0], size=size), 0
+            np.random.randint(data.shape[0], size=self.n_inducing), 0
         ]
 
         if data.shape[1] <= 1:
@@ -43,7 +42,7 @@ class COVIDGPModel(object):
         for col in range(1, data.shape[1]):
             Z = np.vstack([
                 Z, data[
-                    np.random.randint(data.shape[0], size=size), col
+                    np.random.randint(data.shape[0], size=self.n_inducing), col
                 ]
             ])
             
